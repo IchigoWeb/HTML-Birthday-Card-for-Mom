@@ -1,0 +1,57 @@
+/* Global reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body */
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.2;
+  background-color: #f4f4f4;
+  padding: 20px;
+  text-align: left;
+}
+
+/* Header styles */
+h1,
+h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+  color: green;
+}
+
+/* Paragraph styles */
+p {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 20px;
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 1.8;
+  margin-top: 20px;
+}
+.justify-text {
+    text-align: justify;
+}
+footer p {
+    font-size:0.9rem;
+}
+
+/* Image styles */
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
